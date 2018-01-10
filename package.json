@@ -1,0 +1,9 @@
+{
+  "name": "raidMonitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "NOLICENCE",
+  "dependencies": {
+    "node-notifier": "^5.1.2"
+  }
+}
