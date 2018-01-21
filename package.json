@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "NOLICENCE",
   "dependencies": {
+    "axios": "^0.17.1",
     "node-notifier": "^5.1.2"
   }
 }
