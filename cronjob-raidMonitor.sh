@@ -1,2 +1,2 @@
 #!/bin/sh
-node index.js
+/usr/local/bin/node /Applications/AppleRAID-Monitor/index.js

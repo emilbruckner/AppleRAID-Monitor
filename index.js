@@ -5,7 +5,7 @@ const occurrences = text => (text.match(/Online/g) || []).length
 
 const SHOULD_NUMBER_OF_ONLINE_DRIVES = 9
 
-exec("diskutil ar list", function(err, stdout, stderr) {
+exec("/usr/sbin/diskutil appleRAID list", function(err, stdout, stderr) {
   if (occurrences(stdout) != SHOULD_NUMBER_OF_ONLINE_DRIVES) {
     notifier.notify({
       title: 'RAID Alert',
